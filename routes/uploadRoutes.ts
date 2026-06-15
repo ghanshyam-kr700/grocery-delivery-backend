@@ -1,7 +1,6 @@
 import express from "express";
 import auth from "../middleware/auth.js";
 import multer from "multer";
-import { buffer } from "node:stream/consumers";
 import cloudinary from "../config/cloudinary.js";
 
 const upLoadrouter = express.Router()
